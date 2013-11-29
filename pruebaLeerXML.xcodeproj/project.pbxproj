@@ -21,6 +21,7 @@
 		F3E8921D18475B17008C6C20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E891FF18475B17008C6C20 /* UIKit.framework */; };
 		F3E8922518475B17008C6C20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3E8922318475B17008C6C20 /* InfoPlist.strings */; };
 		F3E8922718475B17008C6C20 /* pruebaLeerXMLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E8922618475B17008C6C20 /* pruebaLeerXMLTests.m */; };
+		F3E8923118475C10008C6C20 /* Ejemplo.xml in Resources */ = {isa = PBXBuildFile; fileRef = F3E8923018475C10008C6C20 /* Ejemplo.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F3E8922218475B17008C6C20 /* pruebaLeerXMLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pruebaLeerXMLTests-Info.plist"; sourceTree = "<group>"; };
 		F3E8922418475B17008C6C20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3E8922618475B17008C6C20 /* pruebaLeerXMLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pruebaLeerXMLTests.m; sourceTree = "<group>"; };
+		F3E8923018475C10008C6C20 /* Ejemplo.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Ejemplo.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		F3E8920118475B17008C6C20 /* pruebaLeerXML */ = {
 			isa = PBXGroup;
 			children = (
+				F3E8923018475C10008C6C20 /* Ejemplo.xml */,
 				F3E8920A18475B17008C6C20 /* AppDelegate.h */,
 				F3E8920B18475B17008C6C20 /* AppDelegate.m */,
 				F3E8920D18475B17008C6C20 /* Main.storyboard */,
@@ -230,6 +233,7 @@
 			files = (
 				F3E8921418475B17008C6C20 /* Images.xcassets in Resources */,
 				F3E8920618475B17008C6C20 /* InfoPlist.strings in Resources */,
+				F3E8923118475C10008C6C20 /* Ejemplo.xml in Resources */,
 				F3E8920F18475B17008C6C20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

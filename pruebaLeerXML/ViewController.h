@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <NSXMLParserDelegate> {
+    
+    NSXMLParser *xmlParser;
+    int profundidad;
+    
+    NSMutableArray *contactos;
+    NSMutableDictionary *contacto;
+    NSMutableString *nombreEtiqueta;
+        
+}
+
+
 
 @end

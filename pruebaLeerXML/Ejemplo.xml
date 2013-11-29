@@ -1,0 +1,17 @@
+<contactos>
+	<contacto>
+		<nombre>Dacio</nombre>
+		<apellidos>Leal</apellidos>
+		<telefono>123543299</telefono>
+	</contacto>
+	<contacto>
+		<nombre>Luis</nombre>
+		<apellidos>Berganza</apellidos>
+		<telefono>123000677</telefono>
+	</contacto>
+	<contacto>
+		<nombre>Mario</nombre>
+		<apellidos>Sevilla</apellidos>
+		<telefono>677344200</telefono>
+	</contacto>
+</contactos>
