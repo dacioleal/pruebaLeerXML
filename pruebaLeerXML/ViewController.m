@@ -81,6 +81,8 @@
     nombreEtiqueta = [[NSMutableString alloc] init];
     [self mostrarProfundidad];
     
+    // Insertamos el contacto e inicializamos para el proximo contacto
+    
     if ([elementName isEqualToString:@"contacto"]) {
         
         [contactos addObject:contacto];
