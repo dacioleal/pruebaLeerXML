@@ -52,7 +52,7 @@
 
 - (void) parserDidEndDocument:(NSXMLParser *)parser {
     
-    NSLog(@"\nFin de lectura del fichero");
+    NSLog(@"\nFin de lectura del fichero");    
 }
 
 
@@ -96,8 +96,9 @@
     
     NSLog(@"Elemento: %@", string);
     
-    if ( profundidad == 3)
-    [contacto setObject:string forKey:nombreEtiqueta];
+    if (profundidad == 3)
+        [contacto setObject:string forKey:nombreEtiqueta];
+    
     
 }
 
